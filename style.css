@@ -4,8 +4,43 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.h4{
+  padding-bottom: 20px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+.h2{
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.h3{
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.p{
+  color: #8F8F8F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9rem;
+  line-height: 22px;
+}
+.p--padding{
+  padding: 15px 0;
+}
+/* header start */
 .header{
-  padding: 15px 120px;
+  padding: 15px 13%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +62,7 @@
   padding: 0 15px;
   font-family: 'Roboto', sans-serif;
 }
+
 .nav__ul{
   display: flex;
   list-style: none;
@@ -46,3 +82,114 @@
 .nav__a:active{
   color: #8490ff
 }
+/* header end */
+
+
+/* home start */
+.home{
+  background: #f9f9ff;
+  padding: 130px 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__article{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.home__btn{
+  margin: 15px 0;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #8490ff, #62bdfc);
+  border:none;
+}
+.home__btn:hover{
+  box-shadow: 5px 10px 30px rgba(125, 105, 255, 0.29),
+              -1px -0px 0px rgba(133, 115, 255, 0.29);
+}
+.home__img{
+  padding: 0 10px;
+  width: 50%;
+}
+.home__img img{
+  width: 100%;
+}
+/* home end */
+
+/* about start */
+.about{
+  background: #fff;
+  padding: 130px 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__article{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.about__btn{
+  margin: 15px 0;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #8490ff, #62bdfc);
+  border:none;
+}
+.about__btn:hover{
+  box-shadow: 5px 10px 30px rgba(125, 105, 255, 0.29),
+              -1px -0px 0px rgba(133, 115, 255, 0.29);
+}
+.about__img{
+  padding: 0 10px;
+  width: 50%;
+}
+.about__img img{
+  width: 100%;
+}
+/* about end */
+
+
+/* service start */
+.service{
+  padding: 15px 13%;
+
+}
+.service__head{
+  text-align: center;
+  padding: 30px 0;
+}
+.service__body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.service__box{
+  width: 50%;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service__box i{
+  font-size: 35px;
+  padding: 35px;
+}
+.service__box h3{
+  font-size: 1.3rem;
+  font-weight: normal;
+  
+}
+.service__box p{
+  text-align: center;
+}
+/* service end */
+

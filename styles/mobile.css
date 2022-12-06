@@ -1,0 +1,28 @@
+.header{
+  flex-direction: column;
+  /*  align-items: flex-start*/
+  padding: 15px 5%;
+}
+.header__logo{
+  padding-bottom: 20px;
+}
+.section{
+  padding: 40px 1%;
+}
+.home__article{
+  margin: 20px 0;
+}
+.home__img img{
+  width: 70%;
+}
+.about__img img{
+  padding: 50px 0;
+  margin: 0 auto;
+  display: block;
+}
+.service__p{
+  width: 80%;
+}
+.service__box{
+  padding: 0 50px;
+}

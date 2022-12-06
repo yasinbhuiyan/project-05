@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.section{
+  padding: 130px 13%;
+
+}
 .uppercase{
   text-transform: uppercase;
 }
@@ -39,11 +43,17 @@
   padding: 15px 0;
 }
 [class*="col-"] {
-  width: 100%;
-}
-[class*="col-"] {
   float: left;
   padding: 15px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+.section::after{
+  width: 100%;
+  content: '';
+  clear: both;
+  display: table;
 }
 /* header start */
 .header{
@@ -74,17 +84,19 @@
 }
 
 .header__nav{
-  /* overflow-x: scroll; */
+  overflow-x: auto;
 
 }
 .nav__ul{
   display: flex;
   list-style: none;
+  padding: 10px 10px;
+
 }
 .nav__a{
   text-decoration: none;
   color: #292929;
-  padding: 5px 10px;
+  padding: 10px 10px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
@@ -102,25 +114,23 @@
 /* home start */
 .home{
   background: #f9f9ff;
-  padding: 130px 13%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
 }
 .home__article{
+  margin: 110px 0;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
+  
 }
 .home__btn{
   margin: 15px 0;
-  padding: 10px 25px;
+  padding: 12px 25px;
   color: #FFFFFF;
   text-transform: uppercase;
   background: linear-gradient(to right, #8490ff, #62bdfc);
   border:none;
+  font-weight: bold;
 }
 .home__btn:hover{
   box-shadow: 5px 10px 30px rgba(125, 105, 255, 0.29),
@@ -128,35 +138,33 @@
 }
 .home__img{
   padding: 0 10px;
-  width: 50%;
 }
 .home__img img{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 /* home end */
 
 /* about start */
 .about{
   background: #fff;
-  padding: 130px 13%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
 }
 .about__article{
   padding: 0 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
+  justify-content: space-between;
 }
 .about__btn{
   margin: 15px 0;
-  padding: 10px 25px;
+  padding: 12px 25px;
   color: #FFFFFF;
   text-transform: uppercase;
   background: linear-gradient(to right, #8490ff, #62bdfc);
   border:none;
+  font-weight: bold;
 }
 .about__btn:hover{
   box-shadow: 5px 10px 30px rgba(125, 105, 255, 0.29),
@@ -164,17 +172,17 @@
 }
 .about__img{
   padding: 0 10px;
-  width: 50%;
+
 }
 .about__img img{
   width: 100%;
+  margin: 10px 0;
 }
 /* about end */
 
 
 /* service start */
 .service{
-  padding: 15px 13%;
 
 }
 .service__head{

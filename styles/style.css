@@ -21,7 +21,7 @@
   padding-bottom: 20px;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 .h3{
   padding-bottom: 20px;
@@ -38,15 +38,24 @@
 .p--padding{
   padding: 15px 0;
 }
+[class*="col-"] {
+  width: 100%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
 /* header start */
 .header{
+  width: 100%;
   padding: 15px 13%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
   box-shadow: 2px 2px 50px rgba(186, 186, 186, 0.5);
-  
+  position: sticky;
+  top: 0;
 }
 .header__logo{
   display: flex;
@@ -61,8 +70,13 @@
   font-size: 1.2rem;
   padding: 0 15px;
   font-family: 'Roboto', sans-serif;
+  
 }
 
+.header__nav{
+  /* overflow-x: scroll; */
+
+}
 .nav__ul{
   display: flex;
   list-style: none;
@@ -167,17 +181,26 @@
   text-align: center;
   padding: 30px 0;
 }
+.service__p{
+  max-width: 500px;
+  margin: 0 auto;
+}
 .service__body{
   display: flex;
   flex-wrap: wrap;
 }
 .service__box{
-  width: 50%;
-  padding: 50px 30px;
+  height: 300px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.service__box:hover i, .service__box:hover h3{
+  color: #8490ff;
+  transition: all .1s linear;
+
 }
 .service__box i{
   font-size: 35px;
@@ -186,7 +209,7 @@
 .service__box h3{
   font-size: 1.3rem;
   font-weight: normal;
-  
+  text-align: center;
 }
 .service__box p{
   text-align: center;

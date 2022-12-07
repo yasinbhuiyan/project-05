@@ -50,7 +50,6 @@
   width: 100%;
 }
 .section::after{
-  width: 100%;
   content: '';
   clear: both;
   display: table;
@@ -224,3 +223,22 @@
 }
 /* service end */
 
+/* number start */
+.number{
+  background: linear-gradient(to right bottom, #8490ff, #62bdfc);
+  
+  
+}
+.number__div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  color: #FFFFFF;
+}
+.number__div h2{
+  font-size: 2.5rem;
+}
+.number__div p{
+}
+/* number end */

@@ -26,3 +26,9 @@
 .service__box{
   padding: 0 50px;
 }
+.number{
+  padding: 100px 0;
+}
+.number__div{
+  margin: 15px 0;
+}

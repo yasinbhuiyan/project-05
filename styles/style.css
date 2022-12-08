@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 .section{
-  padding: 130px 13%;
+  padding: 100px 13%;
 
 }
 .uppercase{
@@ -182,7 +182,7 @@
 
 /* service start */
 .service{
-
+  padding-top: 0;
 }
 .service__head{
   text-align: center;
@@ -242,3 +242,30 @@
 .number__div p{
 }
 /* number end */
+
+
+/* Projects start */
+.Projects{
+  text-align: center;
+}
+.project__head{
+  padding: 100px 0;
+}
+.Projects__fig figcaption{
+  padding: 25px 0;
+}
+.Projects__img{
+  width: 100%;
+  height: 100%;
+}
+.Projects__img:hover{
+  opacity: 0.2;
+}
+.Projects__fig{
+  background: linear-gradient(to right bottom, #8490ff, #62bdfc);
+  border-radius: 3%;
+}
+.Projects__fig figcaption{
+  background: #FFFFFF;
+}
+/* Projects end */

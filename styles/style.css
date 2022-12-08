@@ -38,6 +38,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: .9rem;
   line-height: 22px;
+  
 }
 .p--padding{
   padding: 15px 0;
@@ -291,7 +292,7 @@
   box-shadow: 2px 2px 30px rgba(232, 232, 232, 0.5);
 
 }
-.plan__box > .box__h4 ,p{
+.plan__box > .box__h4 .box__p p{
   padding: 10px;
 }
 .box__h2{
@@ -308,7 +309,7 @@
   width: 100%;
 }
 .box__p p{
-  line-height: 20px;
+  padding: 10px 0
 }
 .hr{
   border: none;
@@ -350,3 +351,47 @@
   display: block
 }
 /* plan end */
+
+
+/* footer start */
+.footer{
+  background: #04091e;
+  color: #FFFFFF;
+}
+.footer h3, .footer p{
+  padding-bottom: 20px;
+}
+.about__a{
+  text-decoration: none;
+  color: #62bdfc;
+}
+.input__div{
+  display: flex;
+  width: 100%;
+  background: #4555FF
+}
+.input{
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.footer__Newsletter button{
+  height: 40px;
+  width: 50px;
+  outline: none;
+  border: none;
+  background: #8490ff;
+}
+.button__img{
+  color: #FFFFFF;
+  width: 15px;
+}
+.footer__follow i{
+  padding-right: 10px;
+}
+.footer__follow i:hover{
+  color: #808080;
+}
+/* footer end */

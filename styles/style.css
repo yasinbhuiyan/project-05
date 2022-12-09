@@ -384,9 +384,9 @@
   border: none;
   background: #8490ff;
 }
-.button__img{
+.button__i{
   color: #FFFFFF;
-  width: 15px;
+  font-size: 16px
 }
 .footer__follow i{
   padding-right: 10px;

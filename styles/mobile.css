@@ -1,10 +1,39 @@
 .header{
-  flex-direction: column;
   /*  align-items: flex-start*/
   padding: 15px 5%;
 }
-.header__logo{
-  padding-bottom: 20px;
+#check:checked  ~.header__nav{
+  left: 0;
+}
+.label__check{
+  font-size: 20px;
+}
+.checkbox{
+  display: block;
+}
+.header__nav{
+  position: absolute;
+  margin-top: 60px;
+  width: 180px;
+  height: 100vh;
+  top: 0;
+  left: -100%;
+  transition: all .2s linear;
+  z-index: 1;
+}
+.nav__ul{
+  flex-direction: column;
+  background: #FFFFFF;
+  width: 180px;
+  height: 100vh;
+}
+.nav__li{
+  margin: 5px 0;
+}
+.nav__a{
+  font-size: 14px;
+  padding: 10px;
+  display: block;
 }
 .section{
   padding: 40px 1%;

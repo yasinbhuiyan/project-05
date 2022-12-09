@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body{
+  overflow: hidden
+}
 .section{
   padding: 100px 13%;
 
@@ -68,6 +71,12 @@
   top: 0;
   z-index: 1;
 }
+#check{
+  display: none;
+}
+.checkbox{
+  display: none;
+}
 .header__logo{
   display: flex;
   justify-content: center;
@@ -81,12 +90,6 @@
   font-size: 1.2rem;
   padding: 0 15px;
   font-family: 'Roboto', sans-serif;
-  
-}
-
-.header__nav{
-  overflow-x: auto;
-
 }
 .nav__ul{
   display: flex;

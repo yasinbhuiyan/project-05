@@ -97,7 +97,7 @@
 .nav__a{
   text-decoration: none;
   color: #292929;
-  padding: 10px 10px;
+  padding: 10px 13px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
@@ -281,8 +281,11 @@
   padding-bottom: 80px;
 
 }
-.plan__body{
-  
+.plan__h2{
+  padding: 10px;
+}
+.plan__p{
+  padding: 10px
 }
 .plan__box{
   display: flex;
@@ -295,9 +298,6 @@
   box-shadow: 2px 2px 30px rgba(232, 232, 232, 0.5);
 
 }
-.plan__box > .box__h4 .box__p p{
-  padding: 10px;
-}
 .box__h2{
   padding: 18px;
   background: transparent;
@@ -306,13 +306,15 @@
   font-weight: normal;
   margin: 15px;
 }
+.box__h4{
+  padding: 10px 0;
+}
 .box__p{
   text-align: center;
-  padding: 20px 0;
   width: 100%;
 }
-.box__p p{
-  padding: 10px 0
+.p{
+  padding: 7px 0
 }
 .hr{
   border: none;
